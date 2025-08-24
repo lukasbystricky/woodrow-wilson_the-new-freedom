@@ -1,3 +1,6 @@
+@charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
@@ -26,3 +29,41 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End centered dedications */
+
+/* Begin custom dedication */
+section[epub|type~="dedication"] > p{
+	font-variant: small-caps;
+	text-indent: 0;
+}
+
+section[epub|type~="dedication"] p:first-of-type{
+	font-size: x-large;
+	margin-bottom: 1em;
+}
+/* End custom dedication */
+
+/* Begin verse */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+/* End verse */
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
