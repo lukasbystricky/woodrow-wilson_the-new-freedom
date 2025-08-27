@@ -51,7 +51,7 @@
 		<dc:source>https://archive.org/details/newfreedom0000unse_n6x3</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_New_Freedom</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_New_Freedom#Books</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/woodrow-wilson_the-new-freedom</meta>
 		<dc:creator id="author">Woodrow Wilson</dc:creator>
 		<meta property="file-as" refines="#author">Wilson, Woodrow</meta>
